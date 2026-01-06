@@ -1,6 +1,9 @@
 # FLX1s-Guide
 A Guide for the FLX1s from FuriLabs
 
+1. [Quickguide running Android apps](/Guides/android.md)
+
+
 ## Apps
 ### Browser
 1. [brave-browser](/Apps/brave-browser.md)
