@@ -5,6 +5,10 @@ A Guide for the FLX1s from FuriLabs
 ### Browser
 1. [brave-browser](/Apps/brave-browser.md)
 
+### Appstores
+
+1. [fdroid](/Apps/fdroid.md)
+
 
 # How to Contribute
 - Fork the repository and create a new branch for your changes
