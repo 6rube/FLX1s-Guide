@@ -2,6 +2,7 @@
 A Guide for the FLX1s from FuriLabs
 
 1. [Quickguide running Android apps](/Guides/android.md)
+2. [Using SSH from Client to FLX1s](/Guides/ssh.md)
 
 
 ## Apps
