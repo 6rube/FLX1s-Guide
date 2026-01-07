@@ -19,6 +19,7 @@ A collection of guides and documentation for the FLX1s by the community.
 ### Productivity & business
 1. [brave-browser](/Apps/brave-browser.md)
 2. [chromium](/Apps/chromium.md)
+3. [nextcloud-desktop](/Apps/nextcloud-desktop.md)
 ### Games
 ### Entertainment & streaming
 1. [freetube](/Apps/freetube.md)
