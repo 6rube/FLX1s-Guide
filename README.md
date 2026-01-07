@@ -5,6 +5,10 @@ A Guide for the FLX1s from FuriLabs
 
 
 ## Apps
+
+### Multimedia
+1. [freetube](/Apps/freetube.md)
+
 ### Browser
 1. [brave-browser](/Apps/brave-browser.md)
 
