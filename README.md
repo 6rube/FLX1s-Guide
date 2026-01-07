@@ -17,6 +17,7 @@ A collection of guides and documentation for the FLX1s by the community.
 1. [fdroid](/Apps/fdroid.md)
 ### Productivity & business
 1. [brave-browser](/Apps/brave-browser.md)
+2. [chromium](/Apps/chromium.md)
 ### Games
 ### Entertainment & streaming
 1. [freetube](/Apps/freetube.md)

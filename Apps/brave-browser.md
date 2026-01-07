@@ -1,3 +1,7 @@
+# Information
+Brave is currently broken when installed via flatpak (07.01.2026)
+It is reccomended to install it via cli and curl.
+
 # Installation of Brave Browser
 
 1. Install curl
