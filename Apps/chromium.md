@@ -9,4 +9,4 @@ It is reccomended to install it via apt.
 sudo apt install chromium
 ```
 7. Go to Mobile Settings App (Do not close chromium)
-8. Go to Compositor and enable down scale for brave
+8. Go to Compositor and enable down scale for chromium
