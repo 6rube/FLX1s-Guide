@@ -9,6 +9,7 @@ A collection of guides and documentation for the FLX1s by the community.
 
 1. [Quickguide running Android apps](/Guides/android.md)
 2. [Using SSH from Client to FLX1s](/Guides/ssh.md)
+3. [Keyboard tricks](/Guides/keyboard.md)
 
 
 ## Apps
