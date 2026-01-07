@@ -1,37 +1,32 @@
 # FLX1s-Guide
-A Guide for the FLX1s from FuriLabs
+A collection of guides and documentation for the FLX1s by the community.
+
+
+### Contribute Doc
+[How to Contribute](/how_wo_contribute.md)
+
+## Guides
 
 1. [Quickguide running Android apps](/Guides/android.md)
 2. [Using SSH from Client to FLX1s](/Guides/ssh.md)
 
 
 ## Apps
-
-### Multimedia
-1. [freetube](/Apps/freetube.md)
-
-### Browser
-1. [brave-browser](/Apps/brave-browser.md)
-
-### Appstores
-
+### Communication & social
+### Utility & tools
 1. [fdroid](/Apps/fdroid.md)
-
-
-# How to Contribute
-- Fork the repository and create a new branch for your changes
-- Make your edits to the markdown files
-- Ensure your formatting is consistent with existing pages
-- Submit a pull request with a clear description of your changes
-
-# What to Contribute
-- Corrections to existing content
-- Additional tips and troubleshooting steps
-- New sections covering uncovered topics
-- Improvements to clarity and readability
-- Screenshots or diagrams (if applicable)
-
-# Guidelines
-- Keep language clear and concise
-- Use proper markdown formatting
-- Test any instructions before submitting
+### Productivity & business
+1. [brave-browser](/Apps/brave-browser.md)
+### Games
+### Entertainment & streaming
+1. [freetube](/Apps/freetube.md)
+### Photo & video
+### Lifestyle
+### Health & fitness
+### Travel & navigation
+### Finance & banking
+### Shopping & e‑commerce
+### Food & drink
+### Education & learning
+### News & magazines
+### Specialized / other
