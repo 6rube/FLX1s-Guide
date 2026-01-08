@@ -5,6 +5,7 @@ Be careful when using SSH, always verify the host key fingerprint and avoid trus
 ## Installation and config
 
 1. Install needed packages
+
 For SSH over Internet:
 ```bash
 sudo apt install openssh-server
