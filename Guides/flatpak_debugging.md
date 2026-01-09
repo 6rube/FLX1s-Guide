@@ -1,16 +1,18 @@
-# How to debug Flatpak apps on the Flx1s
-
-
+# How to Debug Flatpak Apps on the Flx1s
 ## Get Debug Log
+Some Flatpaks may fail to start, so it’s useful to obtain the debug log of that app.
 
-Some Flatpaks do not start for that it is good to get the debug log of that app. 
-
-1. Get the Application ID
+1. Get the application ID:
 ```bash
 flatpak list
 ```
-2. Run the app from the terminal like this (Application ID syntax example.example.example)
+2. Run the app from the terminal using the application ID (example: example.example.example):
 ```bash
 flatpak run {Application ID}
 ```
-3. Erros created by that app appeare in the terminal to copy and share.
+Errors produced by the app will appear in the terminal — copy and share them if needed.
+
+## Some Flatpak Packages Are Broken or Won’t Start
+Currently, Flatpak Qt6 applications do not build for GLES (OpenGL).
+This can lead to various issues that cannot be easily fixed.
+It is recommended to install these applications via apt or directly from the developer’s website.
