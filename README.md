@@ -38,3 +38,13 @@ If you have any app you want to be fixed please write an issue here https://gith
 ### Education & learning
 ### News & magazines
 ### Specialized / other
+
+## Sources
+1. Community Tweaks by Alaraajavamma
+https://gitlab.com/Alaraajavamma/fastflx1/-/tree/main
+2. Official Issue Tracker
+https://github.com/FuriLabs/issue-tracker/issues
+3. Flx1 Forum
+https://furilabs.com/forum/flx1/
+4. Furilbas Telegramm
+https://t.me/furilabs_chat
