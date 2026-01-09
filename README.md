@@ -2,7 +2,7 @@
 A collection of guides and documentation for the FLX1s by the community.
 
 ## Compatibility request
-If you have any app you want to be fixed please write an issue.
+If you have any app you want to be fixed please write an issue here https://github.com/FuriLabs/issue-tracker/issues.
 
 ### Contribute Doc
 [How to Contribute](/how_wo_contribute.md)
