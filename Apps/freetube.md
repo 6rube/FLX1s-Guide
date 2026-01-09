@@ -16,3 +16,18 @@ echo '{“_id”:”bounds”,”value”:{“x”:0,”y”:136,”width”:120
 5. Launch Freetube.
 6. If crashes again, check the modified file. The parameter "maximized” has to be set to "true". If not, run close freetube, modify it, and restart.
 
+## Known Issues
+
+### choppy playback
+Some people have experience with choppy playback. To solve this enter this in the terminal:
+```bash
+flatpak override --user \
+  --env=ELECTRON_OZONE_PLATFORM=wayland \
+  --env=ELECTRON_OZONE_PLATFORM_HINT=wayland \
+  --env=ELECTRON_ENABLE_GPU=1 \
+  io.freetubeapp.FreeTube
+```
+if that did not help you can reset the override with: 
+```bash
+flatpak override --user --reset io.freetubeapp.FreeTube
+```

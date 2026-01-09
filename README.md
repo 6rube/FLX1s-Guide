@@ -1,6 +1,8 @@
 # FLX1s-Guide
 A collection of guides and documentation for the FLX1s by the community.
 
+## Compatibility request
+If you have any app you want to be fixed please write an issue.
 
 ### Contribute Doc
 [How to Contribute](/how_wo_contribute.md)
