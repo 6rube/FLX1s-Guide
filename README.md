@@ -13,6 +13,7 @@ If you have any app you want to be fixed please write an issue.
 2. [Using SSH from Client to FLX1s](/Guides/ssh.md)
 3. [Keyboard tricks](/Guides/keyboard.md)
 4. [Progressive web apps](/Guides/pwa.md)
+5. [Flatpak app debugging](/Guides/flatpak_debugging.md)
 
 
 ## Apps
