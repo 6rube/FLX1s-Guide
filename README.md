@@ -17,6 +17,7 @@ If you have any app you want to be fixed please write an issue here https://gith
 
 
 ## Apps
+This is a list of apps that don’t work out of the box but can work with some modifications.
 ### Communication & social
 ### Utility & tools
 1. [fdroid](/Apps/fdroid.md)
