@@ -24,3 +24,6 @@ The Aurora Store is an alternative to the Google Play store.
 You can install it from Fdroid and their you find all APKs that you would find in the normal App store.
 
 https://f-droid.org/de/packages/com.aurora.store/
+
+## Changing app permissions
+1. Go to settings -> android -> installed apps -> settings -> launch -> apps -> the app you want to change -> Permissions
