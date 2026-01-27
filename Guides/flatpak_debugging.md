@@ -16,3 +16,8 @@ Errors produced by the app will appear in the terminal — copy and share them i
 Currently, Flatpak Qt6 applications do not build for GLES (OpenGL).
 This can lead to various issues that cannot be easily fixed.
 It is recommended to install these applications via apt or directly from the developer’s website.
+
+For some people it got fixed by setting this variable:
+```bash
+export QT_SCALE_FACTOR_ROUNDING_POLICY=Round
+```
