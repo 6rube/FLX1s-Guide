@@ -15,8 +15,15 @@ If you have any app you want to be fixed please write an issue here https://gith
 4. [Progressive web apps](/Guides/pwa.md)
 5. [Flatpak app debugging](/Guides/flatpak_debugging.md)
 
+## Community Apps
+Those apps are tailored for FLX1 and a fixning major flaws of stadard gnome apps and broken apps from the software app.
+1. [Phofono](https://gitlab.com/Alaraajavamma/phofono) (SMS/Messaging/Contacts to replace Gome Chatty, GNOME Contacts)
+2. [Tweak-FLX1s](https://gitlab.com/Alaraajavamma/tweak-flx1s) (Software Tweaks, Gesture control, more settings)
+3. [DebUI](https://gitlab.com/Alaraajavamma/debui) (Apt Package Manger GUI)
+4. [Bat-mon](https://gitlab.com/Alaraajavamma/flx1s-bat-mon) (Battery Monitor)
+5. [FastFLX1](https://gitlab.com/Alaraajavamma/fastflx1) (Minor Tweaks and fixes)
 
-## Apps
+## Apps from Software App
 This is a list of apps that don’t work out of the box but can work with some modifications.
 ### Communication & social
 ### Utility & tools
