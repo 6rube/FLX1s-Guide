@@ -27,6 +27,7 @@ Those apps are tailored for FLX1 and a fixning major flaws of stadard gnome apps
 ## Apps from Software App
 This is a list of apps that don’t work out of the box but can work with some modifications.
 ### Communication & social
+1. [simplex-chat](/Apps/simplex-chat.md)
 ### Utility & tools
 1. [fdroid](/Apps/fdroid.md)
 ### Productivity & business
