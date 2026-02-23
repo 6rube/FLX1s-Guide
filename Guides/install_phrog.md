@@ -89,10 +89,10 @@ EOF
 sudo systemctl reset-failed greetd && sudo systemctl restart greetd
 ```
 
-# Improvments
+# Improvements
 
 ## Systemd order
-There is a problem in the dependency chain that casues sometimes issues where the user is stuck in the plymouth menu.
+There is a problem in the dependency chain that causes sometimes issues where the user is stuck in the plymouth menu.
 You can fix it by optimizing the dependency calls:
 
 ### 1. Remove plymouth-quit-wait from greetd
