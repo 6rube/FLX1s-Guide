@@ -1,5 +1,11 @@
 # Phrog Greeter Setup Guide
 
+## Important !
+Only do this when having a reliable usb tehered SSH Connection.
+Missconfiguration might lead to broken boot process. 
+SSH is still able to start since it is running via Andromeda layer. 
+
+
 ### 1. Install & Configure Services
 ```bash
 sudo apt install phrog libc6-dev
