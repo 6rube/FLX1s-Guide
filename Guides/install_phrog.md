@@ -115,5 +115,14 @@ systemctl edit systemd-user-sessions.service
 After=
 After=local-fs.target
 ```
+### 3. Prevent systemd-resolved.service from blocking
+
+```bash
+sudo systemctl edit systemd-resolved.service
+```
+```ini 
+[Service]
+RestartSec=0
+```
 
 
