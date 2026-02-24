@@ -93,36 +93,5 @@ sudo systemctl reset-failed greetd && sudo systemctl restart greetd
 
 ## Systemd order
 There is a problem in the dependency chain that causes sometimes issues where the user is stuck in the plymouth menu.
-You can fix it by optimizing the dependency calls:
-
-### 1. Remove plymouth-quit-wait from greetd
-```bash
-systemctl edit greetd.service
-```
-```ini
-[Unit]
-After=
-After=systemd-user-sessions.service
-After=getty@tty7.service
-Conflicts=getty@tty7.service
-```
-### 2. Break the resolved→network.target blockage
-```bash
-systemctl edit systemd-user-sessions.service
-```
-```ini 
-[Unit]
-After=
-After=local-fs.target
-```
-### 3. Prevent systemd-resolved.service from blocking
-
-```bash
-sudo systemctl edit systemd-resolved.service
-```
-```ini 
-[Service]
-RestartSec=0
-```
 
 
