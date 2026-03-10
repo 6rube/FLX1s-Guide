@@ -89,6 +89,10 @@ EOF
 sudo systemctl reset-failed greetd && sudo systemctl restart greetd
 ```
 
+# Known Issues
+Currently there is an issue with the systemd order chain of the phrog process. 
+The Network Process which is handled via Helium sometimes delays or even breaks the chain.
+
 # Improvements
 
 ## Systemd order
