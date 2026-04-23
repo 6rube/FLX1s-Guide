@@ -93,6 +93,23 @@ sudo systemctl reset-failed greetd && sudo systemctl restart greetd
 Currently there is an issue with the systemd order chain of the phrog process. 
 The Network Process which is handled via Helium sometimes delays or even breaks the chain.
 
+Delaying the service seems to improve it.
+```bash
+sudo tee /etc/systemd/system/greetd.service.d/override.conf << 'EOF'
+[Unit]
+After=
+After=systemd-user-sessions.service getty@tty7.service systemd-logind.service
+Conflicts=getty@tty7.service
+
+[Service]
+RestartSec=3
+StartLimitBurst=3
+StartLimitIntervalSec=60
+EOF
+sudo systemctl daemon-reload && sudo reboot
+```
+
+
 # Improvements
 
 ## Systemd order
