@@ -108,11 +108,3 @@ StartLimitIntervalSec=60
 EOF
 sudo systemctl daemon-reload && sudo reboot
 ```
-
-
-# Improvements
-
-## Systemd order
-There is a problem in the dependency chain that causes sometimes issues where the user is stuck in the plymouth menu.
-
-
