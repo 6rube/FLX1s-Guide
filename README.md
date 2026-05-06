@@ -54,7 +54,10 @@ This is a list of apps that don’t work out of the box but can work with some m
 https://gitlab.com/Alaraajavamma/fastflx1/-/tree/main
 2. Official Issue Tracker
 https://github.com/FuriLabs/issue-tracker/issues
-3. Flx1 Forum
+3. Official FAQ 
+https://furilabs.com/faq/
+https://github.com/FuriLabs/faq
+4. Flx1 Forum
 https://furilabs.com/forum/flx1/
-4. Furilbas Telegramm
+5. Furilbas Telegramm
 https://t.me/furilabs_chat
