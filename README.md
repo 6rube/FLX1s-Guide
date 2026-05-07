@@ -61,3 +61,5 @@ https://github.com/FuriLabs/faq
 https://furilabs.com/forum/flx1/
 5. Furilbas Telegramm
 https://t.me/furilabs_chat
+6. LinuxPhone Forum
+https://linuxphone.io/t/furphone-flx1-flx1s
