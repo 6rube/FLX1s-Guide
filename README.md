@@ -63,3 +63,7 @@ https://furilabs.com/forum/flx1/
 https://t.me/furilabs_chat
 6. LinuxPhone Forum
 https://linuxphone.io/t/furphone-flx1-flx1s
+
+## Mirror
+1. [gitlab.com/6rube/flx1s-guide](https://gitlab.com/6rube/flx1s-guide)
+
