@@ -1,0 +1,29 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches: [ main ]   # or master, or whatever branch you want
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # fetch full history if you want all tags/branches
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Push to GitLab
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          GITLAB_REPO: ${{ secrets.GITLAB_REPO }}
+        run: |
+          git remote remove gitlab 2>/dev/null || true
+          git remote add gitlab "$GITLAB_REPO"
+          git push -f "https://oauth2:${GITLAB_TOKEN}@${GITLAB_REPO#https://}" main
