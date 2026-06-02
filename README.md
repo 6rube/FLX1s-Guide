@@ -23,6 +23,7 @@ Those apps are tailored for FLX1 and a fixning major flaws of stadard gnome apps
 3. [DebUI](https://gitlab.com/Alaraajavamma/debui) (Apt Package Manger GUI)
 4. [Bat-mon](https://gitlab.com/Alaraajavamma/flx1s-bat-mon) (Battery Monitor)
 5. [FastFLX1](https://gitlab.com/Alaraajavamma/fastflx1) (Minor Tweaks and fixes)
+6. [NomNomus](https://github.com/6rube/nomnomus) (Food Tracker)
 
 ## Apps from Software App
 This is a list of apps that don’t work out of the box but can work with some modifications.
