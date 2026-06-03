@@ -18,12 +18,33 @@ If you have any app you want to be fixed please write an issue here https://gith
 
 ## Community Apps
 Those apps are tailored for FLX1 and a fixning major flaws of stadard gnome apps and broken apps from the software app.
+
+### Communication & social
 1. [Phofono](https://gitlab.com/Alaraajavamma/phofono) (SMS/Messaging/Contacts to replace Gome Chatty, GNOME Contacts)
-2. [Tweak-FLX1s](https://gitlab.com/Alaraajavamma/tweak-flx1s) (Software Tweaks, Gesture control, more settings)
-3. [DebUI](https://gitlab.com/Alaraajavamma/debui) (Apt Package Manger GUI)
-4. [Bat-mon](https://gitlab.com/Alaraajavamma/flx1s-bat-mon) (Battery Monitor)
-5. [FastFLX1](https://gitlab.com/Alaraajavamma/fastflx1) (Minor Tweaks and fixes)
-6. [NomNomus](https://github.com/6rube/nomnomus) (Food Tracker)
+### Utility & tools
+1. [Tweak-FLX1s](https://gitlab.com/Alaraajavamma/tweak-flx1s) (Software Tweaks, Gesture control, more settings)
+2. [DebUI](https://gitlab.com/Alaraajavamma/debui) (Apt Package Manger GUI)
+3. [Bat-mon](https://gitlab.com/Alaraajavamma/flx1s-bat-mon) (Battery Monitor)
+4. [FastFLX1](https://gitlab.com/Alaraajavamma/fastflx1) (Minor Tweaks and fixes)
+5. [speedometer](https://github.com/nico359/speedometer) (Very simple Speedometer App)
+6. [simplesync](https://github.com/nico359/simplesync) (A (vibe coded) simple file sync tool for Nextcloud and WebDAV servers, built with GTK4 and Libadwaita in Rust)
+### Productivity & business
+### Games
+### Entertainment & streaming
+### Photo & video
+### Lifestyle
+1. [NomNomus](https://github.com/6rube/nomnomus) (Food Tracker)
+2. [pinepal](https://github.com/nico359/pinepal) (Vibe coded PineTime companion app mostly aimed at mobile Linux devices such as the PinePhone )
+### Health & fitness
+### Travel & navigation
+1. [Loci](https://github.com/nico359/loci) (Turn-by-turn navigation mostly aimed at Linux phones such as the Pinephone or Furiphone)
+### Finance & banking
+1. [expenses](https://github.com/nico359/expenses) (A (vibe coded) mobile-friendly expense tracker for Linux, written in Rust with GTK4 and Libadwaita.)
+### Shopping & e‑commerce
+### Food & drink
+### Education & learning
+### News & magazines
+### Specialized / other
 
 ## Apps from Software App
 This is a list of apps that don’t work out of the box but can work with some modifications.
