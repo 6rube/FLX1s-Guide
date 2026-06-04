@@ -17,7 +17,7 @@ If you have any app you want to be fixed please write an issue here https://gith
 6. [Installing Phrog greeter](/Guides/install_phrog.md)
 
 ## Community Apps
-Those apps are tailored for FLX1 and a fixning major flaws of stadard gnome apps and broken apps from the software app.
+Those apps are tailored for FLX1 and a fixing major flaws of stadard gnome apps and broken apps from the software app.
 
 #### Communication & social
 1. [Phofono](https://gitlab.com/Alaraajavamma/phofono) (SMS/Messaging/Contacts to replace Gome Chatty, GNOME Contacts)
