@@ -85,6 +85,8 @@ https://furilabs.com/forum/flx1/
 https://t.me/furilabs_chat
 6. LinuxPhone Forum
 [https://linuxphone.io/t/furphone-flx1-flx1s](https://linuxphone.io/t/furiphone-flx1-flx1s)
+7. LinuxPhone Wiki
+[https://wiki.linuxphone.io](https://wiki.linuxphone.io)
 
 ## Mirror
 1. [gitlab.com/6rube/flx1s-guide](https://gitlab.com/6rube/flx1s-guide)
