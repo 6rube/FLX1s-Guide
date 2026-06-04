@@ -58,6 +58,7 @@ This is a list of apps that don’t work out of the box but can work with some m
 2. [chromium](/Apps/chromium.md)
 3. [nextcloud-desktop](/Apps/nextcloud-desktop.md)
 4. [joblin](/Apps/joblin.md)
+5. [GNOME Web / Epiphany Web](/Apps/epiphany.md)
 #### Games
 #### Entertainment & streaming
 1. [freetube](/Apps/freetube.md)
