@@ -15,6 +15,7 @@ If you have any app you want to be fixed please write an issue here https://gith
 4. [Progressive web apps](/Guides/pwa.md)
 5. [Flatpak app debugging](/Guides/flatpak_debugging.md)
 6. [Installing Phrog greeter](/Guides/install_phrog.md)
+7. [Nextcloud rclone sync](/Guides/nextcloud_rclone.md)
 
 ## Community Apps
 Those apps are tailored for FLX1 and a fixing major flaws of stadard gnome apps and broken apps from the software app.
