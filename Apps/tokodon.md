@@ -27,11 +27,3 @@ sed -i 's|^Exec=.*|Exec=env QTWEBENGINE_CHROMIUM_FLAGS="--disable-gpu" tokodon %
 ## 3. Run Tokodon
 
 Open Tokodon from the app menu.
-
-If the app menu still uses the old launcher, run:
-
-```bash
-update-desktop-database ~/.local/share/applications 2>/dev/null || true
-```
-
-Then close and reopen the app menu.
