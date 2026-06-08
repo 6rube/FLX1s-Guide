@@ -1,4 +1,4 @@
-# Installation and Fix for Tokodon
+# Installation of Tokodon
 
 ## 1. Install Tokodon
 
