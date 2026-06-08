@@ -16,7 +16,20 @@ sudo apt install usb-tethering
 ```
 2. Goto Settings App -> System -> Secure Shell
 3. Enable Secure Shell
-4. Connect from client with 
+4. Connect from client with
 ```bash
 ssh furios@FuriPhoneFLX1s
+```
+### Alternative connections
+#### IP
+```bash
+ssh furios@(PhoneIP)
+```
+#### USB
+```bash
+ssh furios@10.15.19.82
+```
+#### USB Recovery
+```bash
+ssh root@192.168.2.15
 ```
