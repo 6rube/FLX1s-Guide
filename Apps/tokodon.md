@@ -16,3 +16,4 @@ EOF
 
 chmod +x ~/.local/bin/tokodon-safe
 ```
+3. run via tokodon-safe
