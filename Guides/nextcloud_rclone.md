@@ -1,4 +1,4 @@
-# Simple guide: Sync Pictures to Nextcloud with rclone
+# Sync Pictures to Nextcloud with rclone
 
 This guide syncs:
 
@@ -50,12 +50,6 @@ url: https://example.localhost/remote.php/dav/files/YOUR_USERNAME
 vendor: nextcloud
 user: YOUR_USERNAME
 pass: YOUR_APP_PASSWORD
-```
-
-Example remote name:
-
-```text
-Nextcloud.example.localhost
 ```
 
 ---
