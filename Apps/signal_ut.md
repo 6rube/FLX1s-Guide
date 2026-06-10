@@ -4,7 +4,7 @@
 Signal UT is not a direct mobile client so you cant register or standalone login to signal you need a secondary android/ios device.
 There is a work arround by using signal-cli see point 3.
 
-1. Isntall Signal UT via Software Stroe
+1. Isntall Signal UT via Software Store
 2. Replace wrong Ubuntuu Toch Directory with Furios
 ```bash
 grep -RIl "/home/phablet" . | xargs sed -i 's|/home/phablet|/home/furios|g'
