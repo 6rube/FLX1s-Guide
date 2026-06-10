@@ -52,6 +52,7 @@ This is a list of apps that don’t work out of the box but can work with some m
 #### Communication & social
 1. [simplex-chat](/Apps/simplex-chat.md)
 2. [Tokodon](/Apps/tokodon.md)
+3. [Signal UT](/Apps/signal_ut.md)
 #### Utility & tools
 1. [fdroid](/Apps/fdroid.md)
 #### Productivity & business
