@@ -32,6 +32,7 @@ Those apps are tailored for FLX1 and a fixing major flaws of stadard gnome apps 
 #### Productivity & business
 #### Games
 #### Entertainment & streaming
+1. [Emilia](https://github.com/misc-de/emilia) (Emilia – Adaptive music, podcast, streaming and audio-drama player for Linux )
 #### Photo & video
 #### Lifestyle
 1. [NomNomus](https://github.com/6rube/nomnomus) (Food Tracker)
