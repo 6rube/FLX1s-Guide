@@ -76,6 +76,25 @@ This is a list of apps that don’t work out of the box but can work with some m
 #### News & magazines
 #### Specialized / other
 
+## Android Apps
+
+#### Communication & social
+1. [whatsapp](/Android/whatsapp.md)
+#### Utility & tools
+#### Productivity & business
+#### Games
+#### Entertainment & streaming
+#### Photo & video
+#### Lifestyle
+#### Health & fitness
+#### Travel & navigation
+#### Finance & banking
+#### Shopping & e‑commerce
+#### Food & drink
+#### Education & learning
+#### News & magazines
+#### Specialized / other
+
 ## Sources
 1. Community Tweaks by Alaraajavamma
 https://gitlab.com/Alaraajavamma/fastflx1/-/tree/main
