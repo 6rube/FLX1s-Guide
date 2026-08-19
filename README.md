@@ -45,6 +45,7 @@ Those apps are tailored for FLX1 and a fixing major flaws of stadard gnome apps 
 #### Shopping & e‑commerce
 #### Food & drink
 #### Education & learning
+1. [FLX-1 FAQ App](https://codeberg.org/valos/flx1s-faq) (A FAQ App for the FLX1 based on the official FAQ)
 #### News & magazines
 #### Specialized / other
 
