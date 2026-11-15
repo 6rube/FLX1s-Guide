@@ -1,8 +1,8 @@
 # Phrog Greeter Setup Guide
 
 ## Important !
-Only do this when having a reliable usb tehered SSH Connection.
-Missconfiguration might lead to broken boot process. 
+Only do this when having a reliable SSH Connection.
+Misconfiguration can lead to broken boot process. 
 SSH is still able to start since it is running via Andromeda layer. 
 
 
@@ -97,27 +97,54 @@ DesktopNames=Phosh;GNOME;
 EOF
 ```
 
-### 7. Restart greetd
-```bash
-sudo systemctl reset-failed greetd && sudo systemctl restart greetd
-```
+### 7. Make greetd Wait for the Android Display Stack
+phrog reaches the display through libhybris, which loads Android's own libraries from the
+Android container. If greetd starts before `lxc@android` is up and the hwcomposer is ready,
+phrog exits immediately with `library "libc.so" not found`. systemd restarts it a few times,
+hits the start limit (`start-limit-hit`) and gives up, leaving the "Furi" plymouth screen.
+This only happens on some boots, depending on how fast the Android side comes up.
 
-# Known Issues
-Currently there is an issue with the systemd order chain of the phrog process. 
-The Network Process which is handled via Helium sometimes delays or even breaks the chain.
-
-Delaying the service seems to improve it.
+`phosh.service` avoids this with a wait in `/usr/lib/systemd/system/phosh.service.d/10-wait.conf`.
+Give greetd the same wait:
 ```bash
-sudo tee /etc/systemd/system/greetd.service.d/override.conf << 'EOF'
+sudo mkdir -p /etc/systemd/system/greetd.service.d
+sudo tee /etc/systemd/system/greetd.service.d/override.conf >/dev/null <<'EOF'
 [Unit]
-After=
-After=systemd-user-sessions.service getty@tty7.service systemd-logind.service
-Conflicts=getty@tty7.service
+After=lxc@android.service
+StartLimitIntervalSec=0
 
 [Service]
+ExecStartPre=bash -c "WAITFORSERVICE_VALUE=1 waitforservice vendor.furios.hwcomposer.ready && sleep 3"
+TimeoutStartSec=120
+Restart=always
 RestartSec=3
-StartLimitBurst=3
-StartLimitIntervalSec=60
 EOF
-sudo systemctl daemon-reload && sudo reboot
+sudo systemctl daemon-reload
+```
+`ExecStartPre` is the actual fix. The start-limit and restart settings are a safety net, so a
+slow boot means a short wait instead of a dead screen. `TimeoutStartSec` is raised because the
+wait counts against the start timeout.
+
+> If a future FuriOS update changes the drop-ins in `/usr/lib/systemd/system/phosh.service.d/`
+> (for example the wait condition), mirror the change here.
+
+### 8. Stop the Greeter from Holding the Audio Device
+The `_greetd` user gets its own systemd user session, which starts its own sound server.
+On this phone only one process can hold the audio hardware, so the greeter's sound server
+can grab it first and leave your Phosh session with "No Output Devices" and
+"No Input Devices" in Settings → Sound.
+
+Mask the audio services for the `_greetd` user only:
+```bash
+GH=$(getent passwd _greetd | cut -d: -f6)
+sudo -u _greetd mkdir -p "$GH/.config/systemd/user"
+for u in pulseaudio.service pulseaudio.socket pipewire.service pipewire.socket \
+         pipewire-pulse.service pipewire-pulse.socket wireplumber.service; do
+  sudo -u _greetd ln -sf /dev/null "$GH/.config/systemd/user/$u"
+done
+```
+
+### 9. Reboot
+```bash
+sudo reboot
 ```
